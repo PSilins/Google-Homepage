@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+}
+
+body, a, div, p {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    position: fixed;
+    top: 1%;
+}
+
+.nav-left {
+    grid-column: 1 / 2;
+    display: flex;
+}
+
+.nav-right {
+    grid-column: 2 / 3;
+    display: flex;
+}
+
+.nav-button {
+    padding: 10px;
+}
+
+.nav-button:link {
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    bottom: 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 20px 20px
+}
+
+.footer-top {
+    grid-row: 1 / 2;
+    display: flex;
+}
+
+.footer-bot-left {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-bot-right {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    display: flex;
+    position: fixed;
+    right: 0;
+}
+
+.footer-button {
+    padding: 10px;
+}
+
+.footer-button:link {
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    text-decoration: underline;
+}
+
+#canada {
+
+    padding: 10px;
+}
+
+#can-logo {
+    position: fixed;
+    top: 35%;
+    place-self: stretch center;
+}
+
+.mid-box {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.srch-button-pad {
+    display: flex;
+    flex-direction: row;
+}
+
+.srch-button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f2f2f2
+}
+
+.thk-you:link {
+    text-decoration: none;
+    padding: 20px
+}
+
+.thk-you:hover {
+    text-decoration: underline;
+}
